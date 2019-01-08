@@ -1418,10 +1418,11 @@ img {
 .rig-cell {
     /*margin:12px;
     box-shadow:0 0 6px rgba(0,0,0,0.3);*/
-    display:block;
+    display: block;
     position: relative;
     overflow:hidden;
     border: 5px groove #1B0004;
+
 }
         
 /* If have the image layer */
@@ -1429,7 +1430,7 @@ img {
     display:block;
     width: 100%;
     height: auto;
-    border:none;
+    border: none;
     transform:scale(1);
     transition:all 1s;
 }
@@ -1441,7 +1442,7 @@ img {
 /* If have the overlay layer */
 .rig-overlay {
     position: absolute;
-    display:block;
+    display: block;
     top: 0;
     left: 0;
     bottom: 0;
